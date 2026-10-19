@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monika Kashyap | Official Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f2ee;
+      color: #24201e;
+    }
+    header {
+      background: #171615;
+      color: white;
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    header h2 { margin: 0; font-family: Georgia, serif; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+      font-size: 14px;
+    }
+    .hero {
+      background: #24201e;
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+    }
+    .hero p { color: #e6d6d0; }
+    .hero h1 {
+      font: 58px Georgia, serif;
+      margin: 15px 0;
+    }
+    .button {
+      display: inline-block;
+      background: #e8cec5;
+      color: #24201e;
+      padding: 13px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    section { padding: 55px 8%; }
+    h2 { font-family: Georgia, serif; font-size: 32px; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      padding: 22px;
+      border: 1px solid #d8c7c0;
+      background: white;
+      border-radius: 8px;
+    }
+    .contact { background: #eadbd5; }
+    footer {
+      background: #171615;
+      color: white;
+      text-align: center;
+      padding: 22px;
+    }
+    @media(max-width: 600px) {
+      .hero h1 { font-size: 43px; }
+      nav { line-height: 2; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>MONIKA KASHYAP</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">My Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p>WELCOME TO MY OFFICIAL PORTFOLIO</p>
+      <h1>Monika Kashyap</h1>
+      <p>Commercial Model | Music Video Model</p>
+      <p>Creativity, confidence and storytelling through the camera.</p>
+      <a class="button" href="#contact">Work With Me</a>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello, I'm Monika Kashyap, an aspiring model interested in
+        commercial shoots, music videos, fashion and creative projects.
+        I look forward to connecting with brands and creative teams
+        to bring new ideas to life.
+      </p>
+    </section>
+
+    <section id="work">
+      <h2>Areas of Interest</h2>
+      <div class="services">
+        <div class="card">
+          <h3>Commercial Shoots</h3>
+          <p>Brand campaigns, product photography and lifestyle content.</p>
+        </div>
+        <div class="card">
+          <h3>Music Videos</h3>
+          <p>Creative projects and visual storytelling.</p>
+        </div>
+        <div class="card">
+          <h3>Fashion Modelling</h3>
+          <p>Fashion, editorial and catalogue concepts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Let's Work Together</h2>
+      <p>For professional collaborations and project enquiries:</p>
+      <p>Email: YOUR-EMAIL@example.com</p>
+      <p>Instagram: Add your professional Instagram link</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Monika Kashyap | Official Portfolio
+  </footer>
+</body>
+</html>
